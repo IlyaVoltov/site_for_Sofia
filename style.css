@@ -44,3 +44,9 @@ body {
 .nav-links a {
   color: #fff;
   text-decoration:
+}
+form {
+  border: 3px solid rgb(107, 249, 183);
+}
+input,select,button{display: block; margin-top: 7px;}
+button{background-color: #dba49a; color: rgb(213, 188, 188); padding: 10px 20px;  cursor: pointer;}
