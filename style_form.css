@@ -1,0 +1,25 @@
+form {
+  border: 3px solid rgb(107, 249, 183);
+  padding: 30px;
+  margin: 10px auto;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(to bottom, #ff7575, #bcaeff);
+
+}
+input,select,button{
+  display: block; 
+  margin-top: 7px;}
+button{background-color: #db9a9a; 
+  color: rgb(0, 0, 0);
+  padding: 10px 20px; 
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+button:hover{
+  background-color: #7048ff;
+  font-family:comic sans;
+}
+.info{
+  background-color: rgb(159, 210, 255);
+}
