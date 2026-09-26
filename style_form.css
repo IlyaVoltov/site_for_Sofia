@@ -1,26 +1,58 @@
 form {
-  border: 3px solid rgb(0, 0, 0);
+  border: 3px solid rgb(107, 249, 183);
   padding: 30px;
-  margin: 10px auto;
+  margin: 20px auto;
+  max-width: 450px; /* чтобы на телефоне не растягивалось */
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-  background: linear-gradient(to bottom, #ffc4c4, #aef8ff);
+  background: linear-gradient(to bottom, #ff7575, #bcaeff);
 
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
 }
-input,select,button{
-  display: block; 
-  margin-top: 7px;}
-button{background-color: #db9a9a; 
-  color: rgb(0, 0, 0);
-  padding: 10px 20px; 
+
+label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+  color: #222;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  box-sizing: border-box; /* чтобы padding не ломал ширину */
+  border: none;
+  border-radius: 6px;
+  outline: none;
+}
+
+/* Стиль для полей при фокусе (когда кликают) */
+input:focus, select:focus, textarea:focus {
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.6);
+}
+
+button {
+  margin-top: 25px;
+  width: 100%;
+  padding: 12px;
+  background-color: #db9a9a;
+  color: #000;
   cursor: pointer;
-  transition: background-color 0.3s;
-  font-family:Georgia, 'Times New Roman', Times, serif;
+  border: none;
+  border-radius: 6px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 16px;
+  transition: all 0.3s ease;
 }
-button:hover{
+
+button:hover {
   background-color: #7048ff;
   font-family:comic sans;
 }
 .info{
-  background-color: rgb(31, 221, 255);
+  background-color: rgb(159, 210, 255);
 }
  
